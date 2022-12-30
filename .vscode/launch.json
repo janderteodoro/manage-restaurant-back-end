@@ -15,6 +15,13 @@
             "jinja": true,
             "justMyCode": true,
             "console": "internalConsole"
+        }, 
+        {
+            "name": "Python Unique File",
+            "type": "python",
+            "request": "launch",
+            "module": "teste",
+            "console": "internalConsole"
         }
     ]
 }

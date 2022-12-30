@@ -1,0 +1,34 @@
+{
+    "bebida quentes": [
+        {
+            "name": "Café expresso",
+            "description": "Café preto, da máquina",
+            "price ": 5,
+            "number": 1
+        },
+        {
+            "name": "Café do coador",
+            "description": "Café à moda da casa, no coador",
+            "price ": 3.5,
+            "number": 2
+        },
+        {
+            "name": "Cappuccino com chantilly",
+            "description": "Cappuccino caseiro com raspas de canela finalizado no chantilly",
+            "price ": 7,
+            "number": 3
+        },
+        {
+            "name": "Chocolate quente",
+            "description": "Chocolate quente caseiro, feito com cacau em pó",
+            "price ": 8,
+            "number": 4
+        },
+        {
+            "name": "Chocolate europeu",
+            "description": "chocolate brunelli, bem quente e meio amargo",
+            "price ": 13,
+            "number": 5
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "bebidas geladas": [
+        {
+            "name": "Suco de Laranja",
+            "description": "Suco caseiro (suco de verdade) de 5 laranjas para 500 ml",
+            "price ": 8.00,
+            "number": 6
+        },
+        {
+            "name": "Chocolate gelado",
+            "description": "Chocolate frio feito com cacau em pó e finalizado no ovomaltine",
+            "price ": 8.00,
+            "number": 7
+        },
+        {
+            "name": "Cappuccino gelado com chantilly",
+            "description": "Cappuccino caseiro com ovomaltine finalizado no chantilly",
+            "price ": 13.00,
+            "number": 8
+        },
+        {
+            "name": "Suco de açaí",
+            "description": "Suco natural de açaí com uma pitada de laranja",
+            "price ": 8.00,
+            "number": 9
+        },
+        {
+            "name": "Vitamina",
+            "description": "Vitamina completa de frutas( banana, maçã, morango ) finalizado com paçoquita",
+            "price ": 13.00,
+            "number": 10
+        }
+    ]
+}
