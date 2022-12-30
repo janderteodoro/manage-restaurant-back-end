@@ -12,5 +12,7 @@ class Food(BaseModel):
     price: float
 
 @router.post("/menu", name='route for add food at the menu')
-async def add_to_menu(food: Food):
-    file = f'db/{food.group}/{food.group}.json'
+async def add_to_menu(new_food: Food):
+    file = f'db/{new_food.group}/{new_food.group}.json'.replace(' ', '_')
+    is_new = Dependencies.verify_food(filename=file, new_food_name=new_food.name)
+    print(is_new)
