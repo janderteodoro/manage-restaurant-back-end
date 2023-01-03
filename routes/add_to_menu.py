@@ -15,4 +15,17 @@ class Food(BaseModel):
 async def add_to_menu(new_food: Food):
     file = f'db/{new_food.group}/{new_food.group}.json'.replace(' ', '_')
     is_new = Dependencies.verify_food(filename=file, new_food_name=new_food.name)
-    print(is_new)
+    if not is_new:
+        return {
+            'statusCode': 409,
+            'message': 'food already exists'
+        }
+    
+    content_to_write = json.dumps({
+        'name': new_food.name,
+        'description': new_food.description,
+        'price': new_food.price,
+        'number': 12
+    })
+
+    Dependencies.write_json(filename=file, content=content_to_write)

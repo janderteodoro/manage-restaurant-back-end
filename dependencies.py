@@ -17,5 +17,5 @@ class Dependencies:
                 if new_food_name not in c:
                     continue
                 else:
-                    return True
-            return False
+                    return False
+            return True
