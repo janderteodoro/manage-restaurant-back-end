@@ -12,8 +12,3 @@ async def homePage():
     return {
         "This is": "Home Page"
     }
-
-@router.post("/createuser")
-async def create_user(user: User):
-    return user
-    
