@@ -35,7 +35,7 @@ async def add_to_menu(new_food: Food):
         'name': new_food.name,
         'description': new_food.description,
         'price': new_food.price,
-        'number': 12
+        'number': len(actual_content[new_food.group]) + 1
     }
 
     actual_content[new_food.group].append(content)
